@@ -1,0 +1,170 @@
+#body_NY .header-logo {
+    position: relative;
+    margin-left: 71px;
+    background-position: right top;
+    width: 225px;
+}
+#body_NY .header-logo:before {
+    content: "";
+    position: absolute;
+    left: -75px;
+    top: 50%;
+    margin-top: -35px;
+    width: 71px;
+    height: 85px;
+    background: url("images/logo-animated.gif") no-repeat center center;
+    background-size: 70px auto;
+    z-index: 11;
+}
+#body_NY .page-frame__header:before {
+    content: "";
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    right: 0px;
+    height: 15px;
+    background: url("images/h-tree.png") repeat-x center top;
+    pointer-events: none;
+    z-index: 10;
+}
+#body_NY .page-frame__header:after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    height: 19px;
+    margin-top: -5px;
+    background: url("images/lights.png") repeat-x center top;
+    pointer-events: none;
+}
+#body_NY .header-top {
+    position: relative;
+    z-index: 15;
+}
+#body_NY .header-city,
+#body_NY .header-contacts {
+    position: relative;
+    min-height: 28px;
+}
+#body_NY .header-city:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: -15px;
+    width: 76px;
+    height: 22px;
+    background: url("images/h-tree-start.png") no-repeat left top;
+    pointer-events: none;
+    z-index: 10;
+}
+#body_NY .header-contacts:after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    right: -15px;
+    width: 166px;
+    height: 21px;
+    background: url("images/h-tree-end.png") no-repeat left top;
+    pointer-events: none;
+    z-index: 10;
+}
+#body_NY .header-bottom {
+    position: relative;
+    z-index: 9;
+}
+#body_NY .header-bottom:before,
+#body_NY .header-bottom:after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    width: 165px;
+    height: 94px;
+    left: 0;
+    background: url("images/lights-big.png") no-repeat center top;
+    pointer-events: none;
+    z-index: 10;
+}
+#body_NY .header-bottom:after {
+    left: auto;
+    right: 0;
+}
+#body_NY #yamaps:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: url("images/ice-lt.png") no-repeat left top;
+    background-size: auto 100%;
+    z-index: 10;
+    pointer-events: none;
+}
+#body_NY #yamaps:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 48%;
+    background: url("images/ice-lb.png") no-repeat left top;
+    background-size: auto 100%;
+    z-index: 10;
+    pointer-events: none;
+}
+#body_NY #footer {
+    margin-top: 30px!important;
+}
+#body_NY #footer:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 98px;
+    margin-top: -60px;
+    background: url("images/f-tree.png") repeat-x center top;
+    pointer-events: none;
+}
+#body_NY #footer:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 552px;
+    height: 99px;
+    background: url("images/f-gifts.png") no-repeat right bottom;
+    pointer-events: none;
+}
+
+@media (max-width:1399px) {
+    #body_NY .rc_main-nav__item {
+        padding-right: 40px;
+    }
+}
+@media (max-width:1349px) {
+    #body_NY .rc_main-nav__item {
+        padding-right: 20px;
+    }
+}
+@media (max-width:1224px) {
+    #body_NY .header-logo {
+        width: 71px;
+        margin-left: 0;
+        background: none;
+    }
+    #body_NY .header-logo:before {
+        left: -4px;
+    }
+}
+@media (max-width:1149px) {
+    #body_NY .rc_main-nav__item {
+        padding-right: 28px;
+    }
+}
+@media (max-width:1049px) {
+    #body_NY .rc_main-nav__item {
+        padding-right: 20px;
+    }
+}

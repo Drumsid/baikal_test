@@ -1,0 +1,120 @@
+.multimedia h2 {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 34px;
+}
+.multimedia p {
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 32px;
+  margin: 0 0 30px;
+}
+.mult-group-1 h3 {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 34px;
+  margin: 0 0 20px;
+}
+.mult-box {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+} 
+.mult-card-group {
+	height: 340px;
+	width: 30%;
+	padding: 0;
+	-webkit-box-shadow: 2px 2px 16px 0px rgba(50, 50, 50, 0.25);
+	-moz-box-shadow:    2px 2px 16px 0px rgba(50, 50, 50, 0.25);
+	box-shadow:         2px 2px 16px 0px rgba(50, 50, 50, 0.25);
+	border-radius: 5px;
+}
+.no-image a {
+	color: #2b2b2b;
+	border-bottom: 1px solid #aaa;
+	padding: 0 0 3px;
+}
+.no-image p {
+	margin: 5px 0 0;
+}
+.card-body {
+	padding: 10px;
+}
+.mult-card-group h5 {
+	color: #AAAAAA;
+	font-weight: 400;
+	margin-top: 20px;
+}
+.mult-card-group p {
+	font-size: 16px;
+	line-height: 1.5;
+}
+.card-load {
+	height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.side-menu {
+	padding: 15px;
+	cursor: pointer;
+}
+.side-menu h2 {
+	font-size: 20px;
+}
+.sub-manager h4 {
+	font-size: 14px;
+}
+.sub-manager p {
+	font-size: 12px;
+	color: #8D8D8D;
+	margin: 0;
+}
+hr {
+	width: 70%;
+}
+.btn-block-sub {
+	margin-top: 20px;
+}
+.btn-block-sub button {
+	padding: 10px 20px;
+	font-weight: 400;
+}
+.list-inline li {
+	margin: 0 15px 0 0;
+	cursor: pointer;
+}
+.fab:hover {
+	color: #3FB4E4;
+	cursor: po
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
